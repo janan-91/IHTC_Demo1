@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="130338" started-at="2020-02-18T05:04:51Z" finished-at="2020-02-18T05:07:02Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC_04_Signup_Buyer_CA_Feature_SignUp_04.IHTCPage()[pri:1, instance:iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04@71b1176b]" name="IHTCPage" class="iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_04_Signup_Buyer_CA_Feature_SignUp_04.IHTCPage()[pri:1, instance:iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04@71b1176b]" name="IHTCPage" class="iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TC_04_Signup_Buyer_CA_Feature_SignUp_04.IHTCPage()[pri:1, instance:iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04@71b1176b]" name="IHTCPage" class="iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="130338" started-at="2020-02-18T05:04:51Z" finished-at="2020-02-18T05:07:02Z">
+      <class name="iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04@71b1176b]" name="beforeSuite" is-config="true" duration-ms="366" started-at="2020-02-18T05:04:51Z" finished-at="2020-02-18T05:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04@71b1176b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-02-18T05:04:51Z" finished-at="2020-02-18T05:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04@71b1176b]" name="setData" is-config="true" duration-ms="0" started-at="2020-02-18T05:04:51Z" depends-on-methods="IHTC_wdMethods.ProjectMethods.beforeTest" finished-at="2020-02-18T05:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04@71b1176b]" name="beforeMethod" is-config="true" duration-ms="42785" started-at="2020-02-18T05:04:51Z" finished-at="2020-02-18T05:05:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacOS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://hemp-trader-dev.appspot.com/signup]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="IHTCPage()[pri:1, instance:iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04@71b1176b]" name="IHTCPage" duration-ms="85532" started-at="2020-02-18T05:05:34Z" finished-at="2020-02-18T05:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IHTCPage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04@71b1176b]" name="afterMethod" is-config="true" duration-ms="1960" started-at="2020-02-18T05:07:00Z" finished-at="2020-02-18T05:07:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=IHTCPage status=SUCCESS method=TC_04_Signup_Buyer_CA_Feature_SignUp_04.IHTCPage()[pri:1, instance:iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04@71b1176b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04@71b1176b]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-02-18T05:07:02Z" finished-at="2020-02-18T05:07:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04@71b1176b]" name="afterSuite" is-config="true" duration-ms="69" started-at="2020-02-18T05:07:02Z" finished-at="2020-02-18T05:07:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

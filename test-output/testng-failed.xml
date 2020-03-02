@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="platform" value="Mac"/>
+    <parameter name="url" value="https://ihtc.slingrs.io/staging/runtime"/>
+    <classes>
+      <class name="iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04">
+        <methods>
+          <include name="setData"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="IHTCPage"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- iHTC_Testcases.TC_04_Signup_Buyer_CA_Feature_SignUp_04 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
